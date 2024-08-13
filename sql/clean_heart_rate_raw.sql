@@ -1,5 +1,5 @@
 /*
-Author: Summer Sproull
+This SQL file takes the raw heart rate data and processes it into the correct data format for consumption.
 */
 CREATE TABLE `crack-case-431914-j8.Capstone.heart_rate` AS
 SELECT 
