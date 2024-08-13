@@ -1,3 +1,6 @@
+/*
+Author: Summer Sproull
+*/
 CREATE TABLE `crack-case-431914-j8.Capstone.heart_rate` AS
 SELECT 
     Id,
