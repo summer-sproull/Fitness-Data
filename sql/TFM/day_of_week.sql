@@ -36,6 +36,8 @@ hourly_intensities_summary AS (
     COUNT(*) AS intensities
   FROM
     `crack-case-431914-j8.Capstone.hourly_intensities`
+  WHERE
+    total_intensity != 0
   GROUP BY
     day_of_week
 ),
@@ -45,6 +47,8 @@ hourly_steps_summary AS (
     COUNT(*) AS steps
   FROM
     `crack-case-431914-j8.Capstone.hourly_steps`
+  WHERE
+    stepp_total !=0
   GROUP BY
     day_of_week
 ),
